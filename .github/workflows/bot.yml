@@ -2,7 +2,7 @@ name: Scheduled Commit Bot
 
 on:
   schedule:
-    - cron: '0/15 * * * *'
+    - cron: '15 * * * *'
     
 jobs:
   commit:
@@ -16,9 +16,16 @@ jobs:
           git config --global user.name 'rahfianugerah'
           git config --global user.email 'nrahfia@gmail.com'
 
-      - name: Make a commit
+      - name: Random number generation
+        id: random
+        # Generates a random number between 1 to 2
+        run: echo "::set-output name=random_number::$(shuf -i 1-2 -n 1)" 
+
+      - name: Make commits
         run: |
-          echo "$(date)" >> commit.txt  # Example: Append current date/time to commit.txt
-          git add commit.txt
-          git commit -m "Automated Commit at $(date)"
+          for ((i=0; i<${{ steps.random.outputs.random_number }}; i++)); do
+            echo "$(date)" >> commit.txt
+            git add commit.txt
+            git commit -m "Automated Commit at $(date)"
+          done
           git push
