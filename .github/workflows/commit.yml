@@ -1,0 +1,24 @@
+name: Scheduled Commit Bot
+
+on:
+  schedule:
+    - cron: '0/15 * * * *'
+    
+jobs:
+  commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Git
+        run: |
+          git config --global user.name 'rahfianugerah'
+          git config --global user.email 'nrahfia@gmail.com'
+
+      - name: Make a commit
+        run: |
+          echo "$(date)" >> commit.txt  # Example: Append current date/time to commit.txt
+          git add commit.txt
+          git commit -m "Automated Commit at $(date)"
+          git push
