@@ -2,7 +2,7 @@ name: Scheduled Commit Bot
 
 on:
   schedule:
-    - cron: '15 * * * *'
+    - cron: '*/15 * * * *'
     
 jobs:
   commit:
