@@ -13,8 +13,8 @@ jobs:
 
       - name: Set up Git
         run: |
-          git config --global user.name 'username'
-          git config --global user.email 'youremail@email.com'
+          git config --global user.name 'rahfianugerah'
+          git config --global user.email 'nrahfia@email.com'
 
       - name: Random number generation
         id: random
