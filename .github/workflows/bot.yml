@@ -2,8 +2,7 @@ name: Scheduled Commit Bot
 
 on:
   schedule:
-     # Runs at midnight every day (00:00 UTC)
-    - cron: '0 0 * * *'
+    - cron: '0 */6 * * *'
     
 jobs:
   commit:
@@ -14,8 +13,8 @@ jobs:
 
       - name: Set up Git
         run: |
-          git config --global user.name 'rahfianugerah'
-          git config --global user.email 'nrahfia@gmail.com'
+          git config --global user.name 'username'
+          git config --global user.email 'youremail@email.com'
 
       - name: Random number generation
         id: random
