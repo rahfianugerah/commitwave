@@ -14,7 +14,7 @@ jobs:
       - name: Set up Git
         run: |
           git config --global user.name 'rahfianugerah'
-          git config --global user.email 'nrahfia@email.com'
+          git config --global user.email 'nrahfia@gmail.com'
 
       - name: Random number generation
         id: random
