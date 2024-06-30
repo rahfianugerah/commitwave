@@ -2,7 +2,8 @@ name: Scheduled Commit Bot
 
 on:
   schedule:
-    - cron: '0 */6 * * *'
+     # Runs at midnight every day (00:00 UTC)
+    - cron: '0 0 * * *'
     
 jobs:
   commit:
