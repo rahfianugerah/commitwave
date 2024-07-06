@@ -5,7 +5,7 @@ name: Scheduled Commit Bot
 
 on:
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '0 0 * * *'
     
 jobs:
   commit:
@@ -32,6 +32,7 @@ jobs:
             git commit -m "Automated Commit at $(date)"
           done
           git push
+
 ```
 
 
