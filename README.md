@@ -1,4 +1,4 @@
-# Github Bot Commit
+# Github Scheduled Bot Commit
 
 ```yml
 name: Scheduled Commit Bot
