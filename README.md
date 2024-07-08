@@ -1,5 +1,8 @@
 # Github Scheduled Bot Commit
 
+<img src="https://github.com/rahfianugerah/bot-commit/blob/main/img/bot.png">
+
+## Bot Script
 ```yml
 name: Scheduled Commit Bot
 
