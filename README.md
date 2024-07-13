@@ -1,10 +1,24 @@
-# Github Scheduled Bot Commit
+![Maintenance](https://img.shields.io/badge/Maintenance-Yes-green)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/rahfianugerah/scheduled-commit-bot/blob/main/LICENSE)
+![Yaml](https://img.shields.io/badge/Made_with-Yaml-blue.svg)
+![Github Action](https://img.shields.io/badge/GitHub_Workflows-%23121011.svg?&logo=github&logoColor=white)
 
-<div align=center>
-  <img src="https://github.com/rahfianugerah/scheduled-commit-bot/blob/main/img/newbot.png" >
+<div align="center">
+  <img src="https://github.com/rahfianugerah/scheduled-commit-bot/blob/main/img/newbot.png" height=150 width=150>
+  <h3>
+    Scheduled Commit Bot
+  </h3>
+  <p>
+    An awesome bot that will maintain your github contribution history
+  </p>
 </div>
 
-## Bot Script
+## Project Overview
+<p align="justify">
+  Scheduled Commit Bot is an automated tool designed to help developers maintain an active commit history on their GitHub repositories. Utilizing GitHub Actions, the bot generates and pushes random commits 1-2 times daily.
+</p>
+
+### 🤖 Bot Script:
 ```yml
 name: Scheduled Commit Bot
 
@@ -40,6 +54,12 @@ jobs:
 
 ```
 
+⚠️ <b> Disclaimer: </b>
+
+<p align="justify">
+  Scheduled Commit Bot is designed to automate the process of creating commits to GitHub repositories. While this tool can be useful for maintaining a history of active commits, users should be aware of the potential and limitations associated with its use. Commit Bot is intended for educational and experimental purposes. It should not be used to artificially inflate repository activity or misrepresent project progress.
+</p> 
+
 
 ## Time Default
 
@@ -56,4 +76,5 @@ on:
   schedule:
     - cron: '0 */6 * * *'
 ```
+
 
