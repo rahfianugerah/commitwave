@@ -3,6 +3,7 @@
 <div align=center>
   <img src="https://github.com/rahfianugerah/scheduled-commit-bot/blob/main/img/newbot.png" >
 </div>
+
 ## Bot Script
 ```yml
 name: Scheduled Commit Bot
