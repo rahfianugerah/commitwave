@@ -1,9 +1,8 @@
 name: Scheduled Commit Bot
 
 on:
-  # Setting up the time
   schedule:
-    - cron: '0 */6 * * *'
+    - cron: '0 0 * * *'
     
 jobs:
   commit:
