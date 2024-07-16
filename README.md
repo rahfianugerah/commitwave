@@ -57,7 +57,7 @@ jobs:
 ⚠️ <b> Disclaimer: </b>
 
 <p align="justify">
-  Scheduled Commit Bot is designed to automate the process of creating commits to GitHub repositories. While this tool can be useful for maintaining a history of active commits, users should be aware of the potential and limitations associated with its use. Commit Bot is intended for educational and experimental purposes. It should not be used to artificially inflate repository activity or misrepresent project progress.
+  Scheduled Commit Bot is designed to automate the process of creating commits to GitHub repositories. While this bot can be useful for maintaining a history of active commits, users should be aware of the potential and limitations associated with its use. This bot is intended for educational and experimental purposes. It should not be used to artificially inflate repository activity or misrepresent project progress.
 </p> 
 
 
