@@ -1,3 +1,4 @@
+![Version](https://img.shields.io/badge/Version-1.0.0-green)
 ![Maintenance](https://img.shields.io/badge/Maintenance-Yes-green)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/rahfianugerah/scheduled-commit-bot/blob/main/LICENSE)
 ![Yaml](https://img.shields.io/badge/Made_with-Yaml-blue.svg)
