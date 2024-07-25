@@ -24,11 +24,11 @@ const makeCommit = async (n, startDate, endDate) => {
     // Create a temporary file to make a commit
     fs.writeFileSync(TEMP_FILE_PATH, formattedDate);
 
-    git.add(TEMP_FILE_PATH)
-        .commit(formattedDate, { '--date': formattedDate })
-        .then(() => {
-            makeCommit(n - 1, startDate, endDate);
-        });
+    await git.add(TEMP_FILE_PATH);
+    await git.commit(formattedDate, { '--date': formattedDate });
+    
+    // Recur for the next commit
+    await makeCommit(n - 1, startDate, endDate);
 };
 
 const startCommitBot = async (startDateStr, endDateStr, numberOfCommits) => {
@@ -38,4 +38,4 @@ const startCommitBot = async (startDateStr, endDateStr, numberOfCommits) => {
 };
 
 // Example usage
-startCommitBot('2024-01-11', '2024-07-12', 3);
+startCommitBot('2024-01-11', '2024-01-13', 2);
