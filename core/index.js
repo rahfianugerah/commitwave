@@ -38,4 +38,4 @@ const startCommitBot = async (startDateStr, endDateStr, numberOfCommits) => {
 };
 
 // Example usage
-startCommitBot('2024-01-11', '2024-01-13', 2);
+startCommitBot('2024-01-13', '2024-04-6', 100);
