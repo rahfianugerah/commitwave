@@ -7,7 +7,7 @@
 <div align="center">
   <img src="https://github.com/rahfianugerah/scheduled-commit-bot/blob/main/img/newbot.png" height=150 width=150>
   <h3>
-    Scheduled Commit Bot
+    SC-Bot
   </h3>
   <p>
     An awesome bot that will maintain your github contribution history
