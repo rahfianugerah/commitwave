@@ -21,6 +21,12 @@
   Scheduled Commit Bot is an automated tool designed to help developers maintain an active commit history on their GitHub repositories. Utilizing GitHub Actions, the bot generates and pushes random commits 1-2 times daily.
 </p>
 
+⚠️ <b> Disclaimer: </b>
+
+<p align="justify">
+  Scheduled Commit Bot is designed to automate the process of creating commits to GitHub repositories. While this bot can be useful for maintaining a history of active commits, users should be aware of the potential and limitations associated with its use. This bot is intended for educational and experimental purposes. It should not be used to artificially inflate repository activity or misrepresent project progress.
+</p> 
+
 ### 🤖 Bot Script:
 ```yml
 name: Scheduled Commit Bot
@@ -56,13 +62,6 @@ jobs:
           git push
 
 ```
-
-⚠️ <b> Disclaimer: </b>
-
-<p align="justify">
-  Scheduled Commit Bot is designed to automate the process of creating commits to GitHub repositories. While this bot can be useful for maintaining a history of active commits, users should be aware of the potential and limitations associated with its use. This bot is intended for educational and experimental purposes. It should not be used to artificially inflate repository activity or misrepresent project progress.
-</p> 
-
 
 ## Time Default
 
