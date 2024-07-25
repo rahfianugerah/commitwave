@@ -1,0 +1,33 @@
+name: Scheduled Commit Bot
+
+on:
+  # Setting up the time
+  schedule:
+    - cron: '0 */6 * * *'
+    
+jobs:
+  commit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Git
+        # Setup your github username and your email
+        run: |
+          git config --global user.name 'username' 
+          git config --global user.email 'youremail@email.com' 
+
+      - name: Random number generation
+        id: random
+        # Generates a random number between 1 - 2 
+        run: echo "::set-output name=random_number::$(shuf -i 1-2 -n 1)" 
+
+      - name: Make commits
+        run: |
+          for ((i=0; i<${{ steps.random.outputs.random_number }}; i++)); do
+            echo "$(date)" >> commit.txt
+            git add commit.txt
+            git commit -m "Automated Commit at $(date)"
+          done
+          git push

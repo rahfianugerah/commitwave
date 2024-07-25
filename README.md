@@ -5,7 +5,7 @@
 ![Github Action](https://img.shields.io/badge/GitHub_Workflows-%23121011.svg?&logo=github&logoColor=white)
 
 <div align="center">
-  <img src="https://github.com/rahfianugerah/scheduled-commit-bot/blob/main/img/newbot.png" height=150 width=150>
+  <img src="img/bot.png" height=150 width=150>
   <h3>
     SC-Bot
   </h3>
