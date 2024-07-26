@@ -101,14 +101,14 @@ jobs:
 
 ## Time Default
 
-- Runs at midnight every day (00:00 UTC) | Generate random commit (1 or 2)
+- Runs at midnight every day (00:00 UTC)
 ```yml
 on:
   schedule:
     - cron: '0 0 * * *'
 ```
 
-- Runs at 6 hours a day | Generate random 1 - 2 commit for every 6 hours (MAX 8)
+- Runs at 6 hours a day
 ```yml
 on:
   schedule:
