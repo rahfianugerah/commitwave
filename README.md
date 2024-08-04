@@ -63,7 +63,7 @@ startCommitBot('2024-06-6', '2024-06-23', 18);
 npm start
 ```
 
-## Bot Script (Github Actions & Workflow)
+## Bot Script (Github Actions)
 ```yml
 name: Scheduled Commit Bot
 
