@@ -3,8 +3,7 @@
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/rahfianugerah/sch-bot/blob/main/LICENSE)
 ![JavaScript](https://img.shields.io/badge/Javascript-%23323330.svg?&logo=javascript&logoColor=%23F7DF1E)
 ![NodeJS](https://img.shields.io/badge/Node.js-6DA55F?&logo=node.js&logoColor=white)
-![Yaml](https://img.shields.io/badge/Made_with-Yaml-blue.svg)
-![Github Action](https://img.shields.io/badge/GitHub_Workflows-%23121011.svg?&logo=github&logoColor=white)
+![Github Action](https://img.shields.io/badge/GitHub_Action-%23121011.svg?&logo=github&logoColor=white)
 
 <div align="center">
   <img src="img/bot.png" height=150 width=150>
