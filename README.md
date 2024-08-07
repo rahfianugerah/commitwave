@@ -17,7 +17,7 @@
 
 ## Project Overview
 <p align="justify">
-  The Scheduled Commit Bot is an advanced automation tool designed to help developers keep their GitHub repositories consistently active and engaging. By utilizing GitHub Actions, this bot automates the process of generating and pushing commits at random intervals within a user-defined date range.
+  The Scheduled Commit Bot is an advanced automation tool designed to help developers keep their GitHub contribution history consistently active and engaging. By utilizing GitHub Actions and JavaScript based tools, this bot automates the process of generating and pushing commits at random intervals (GitHub Action & JavaScript based) within a user-defined date range (JavaScript based only).
 </p>
 
 <div align="center">
