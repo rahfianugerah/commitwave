@@ -8,7 +8,7 @@
 <div align="center">
   <img src="img/bot.png" height=150 width=150>
   <h3>
-    Commit Wave Bot
+    Commit Wave
   </h3>
   <p>
     An awesome bot that will maintain your github contribution history
