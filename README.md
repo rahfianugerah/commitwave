@@ -29,13 +29,12 @@
 
 #### Getting Started
 <p align="justify">
-  
 To get started with this project, please refer to the <a href=#installation-guide>Installation Guide</a> and <a href=#usage-instructions>User Instruction</a> in the documentation. For additional information on contributing, please check out the Contributing Guidelines [N/A].
 </p>
 
 #### Disclaimer </b>
 <p align="justify">
-  Commit Wave is designed to automate the process of creating commits to GitHub repositories. While this bot can be useful for maintaining a history of active commits, users should be aware of the potential and limitations associated with its use. This bot is intended for educational and experimental purposes. It should not be used to artificially inflate repository activity or misrepresent project progress [<b>only 1 repository that can contain this bot and you're prohibited to insert this bot to other repository</b>].
+Commit Wave is designed to automate the process of creating commits to GitHub repositories. While this bot can be useful for maintaining a history of active commits, users should be aware of the potential and limitations associated with its use. This bot is intended for educational and experimental purposes. It should not be used to artificially inflate repository activity or misrepresent project progress [<b>only 1 repository that can contain this bot and you're prohibited to insert this bot to other repository</b>].
 </p> 
 
 #### Installation Guide
