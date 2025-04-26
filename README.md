@@ -52,7 +52,7 @@ npm start
 #### Interactive Bot Usage
 
 - Enter a date range and commit(s)
-```javascript
+```bash
 Commit Wave: Hello! I am your commit bot.
 Commit Wave: Please enter the start date (YYYY-MM-DD): 2025-01-10
 Commit Wave: Please enter the end date (YYYY-MM-DD): 2025-03-02
