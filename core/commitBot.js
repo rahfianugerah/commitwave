@@ -14,7 +14,7 @@ function makeCommit(n, startDate, endDate) {
   if (n <= 0) {
     try {
       const pushResult = gitPush();
-      console.log("Commit Wave: All commits are done. Pushed to remote successfully:\n", pushResult);
+      console.log("Commit Wave: All commits are done. Pushed to remote successfully.");
     } catch (error) {
       console.error("Commit Wave: Error pushing to remote:", error.message);
     }

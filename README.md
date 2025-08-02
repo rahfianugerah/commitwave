@@ -52,13 +52,31 @@ npm start
 #### Interactive Bot Usage
 
 - Enter a date range and commit(s)
-```javascript
+```bash
+> commitwave@2.0.1 start
+> node index.js
+
+
+ ██████╗ ██████╗ ███╗   ███╗███╗   ███╗██╗████████╗    ██╗    ██╗ █████╗ ██╗   ██╗███████╗
+██╔════╝██╔═══██╗████╗ ████║████╗ ████║██║╚══██╔══╝    ██║    ██║██╔══██╗██║   ██║██╔════╝
+██║     ██║   ██║██╔████╔██║██╔████╔██║██║   ██║       ██║ █╗ ██║███████║██║   ██║█████╗
+██║     ██║   ██║██║╚██╔╝██║██║╚██╔╝██║██║   ██║       ██║███╗██║██╔══██║╚██╗ ██╔╝██╔══╝
+╚██████╗╚██████╔╝██║ ╚═╝ ██║██║ ╚═╝ ██║██║   ██║       ╚███╔███╔╝██║  ██║ ╚████╔╝ ███████╗
+ ╚═════╝ ╚═════╝ ╚═╝     ╚═╝╚═╝     ╚═╝╚═╝   ╚═╝        ╚══╝╚══╝ ╚═╝  ╚═╝  ╚═══╝  ╚══════╝
+
 Commit Wave: Hello! I am your commit bot.
-Commit Wave: Please enter the start date (YYYY-MM-DD): 2025-01-10
-Commit Wave: Please enter the end date (YYYY-MM-DD): 2025-03-02
-Commit Wave: How many commits would you like to make? 10
-Commit Wave: Great! I will make 10 commits from 2025-01-10 to 2025-03-02.
-Commit Wave: Starting commits between Fri Jan 10 2025 and Sun Mar 02 2025...
+Commit Wave: Please enter the start date (YYYY-MM-DD): 
+2025-08-01
+Commit Wave: Please enter the end date (YYYY-MM-DD): 
+2025-08-02
+Commit Wave: How many commits would you like to make? 
+1
+Commit Wave: Great! I will make 1 commits from 2025-08-01 to 2025-08-02.
+Commit Wave: Starting commits between Fri Aug 01 2025 and Sat Aug 02 2025...
+Commit Wave: Committed with date: Fri Aug 01 17:52:05 UTC 2025
+To https://github.com/rahfianugerah/commitwave
+   81735e8..bc3f781  main -> main
+Commit Wave: All commits are done. Pushed to remote successfully.
 ```
 
 #### Bot Script (Github Actions Script)
