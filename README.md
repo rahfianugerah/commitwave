@@ -3,7 +3,6 @@
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/rahfianugerah/sch-bot/blob/main/LICENSE)
 ![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?&logo=javascript&logoColor=%23F7DF1E)
 ![NodeJS](https://img.shields.io/badge/Node.js-6DA55F?&logo=node.js&logoColor=white)
-![Github Action](https://img.shields.io/badge/GitHub_Action-%23121011.svg?&logo=github&logoColor=white)
 
 <div align="center">
   <img src="img/bot.png" height=150 width=150>
@@ -145,8 +144,6 @@ on:
 <p align="justify">
 This project is licensed under the MIT License. This means you are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software. The full text of the license is available in the <a href="https://github.com/rahfianugerah/commitwave/blob/main/LICENSE">LICENSE</a> file. By using this project, you agree to include the license notice and disclaimers in all copies or substantial portions of the Software. For more details on the terms and conditions of the MIT License, please refer to the license file.
 </p>
-
----
 
 #### Project Author
 GitHub: [@rahfianugerah](https://www.github.com/rahfianugerah)
