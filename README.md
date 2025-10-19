@@ -1,6 +1,6 @@
 ![Version](https://img.shields.io/badge/Version-2.0.1-green)
 ![Maintenance](https://img.shields.io/badge/Maintenance-Yes-green)
-[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://github.com/rahfianugerah/sch-bot/blob/main/LICENSE)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 ![JavaScript](https://img.shields.io/badge/JavaScript-%23323330.svg?&logo=javascript&logoColor=%23F7DF1E)
 ![NodeJS](https://img.shields.io/badge/Node.js-6DA55F?&logo=node.js&logoColor=white)
 
