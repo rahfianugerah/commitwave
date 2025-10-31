@@ -14,29 +14,29 @@
   </p>
 </div>
 
-#### Project Overview
+### Project Overview
 <p align="justify">
   Commit Wave is an automation tool designed to help developers keep their GitHub contribution history consistently active and engaging. By utilizing GitHub Actions or JavaScript based, this bot automates the process of generating and pushing commits at random intervals (GitHub Action & JavaScript) within a user-defined date range (JavaScript).
 </p>
 
-#### Key Features
+### Key Features
 - Automatic Commit Scheduling: Automatically executes commits.
 - Randomized Commit Timing: Commits are made at random times each day to simulate consistent activity without a predictable pattern.
 - Date Interval Commit: Commits are spaced out based on a configurable date interval.
 - Commit Graph Maintenance: Keeps the GitHub commit graph full and active.
 - Simple Configuration: Easy setup with minimal configuration required to start automating commits.
 
-#### Getting Started
+### Getting Started
 <p align="justify">
 To get started with this project, please refer to the <a href=#installation-guide>Installation Guide</a> and <a href=#interactive-bot-usage>Interactive Bot Usage</a> in the documentation. For additional information on contributing, please check out the Contributing Guidelines [N/A].
 </p>
 
-#### Disclaimer </b>
+### Disclaimer </b>
 <p align="justify">
 Commit Wave is designed to automate the process of creating commits to GitHub repositories. While this bot can be useful for maintaining a history of active commits, users should be aware of the potential and limitations associated with its use. This bot is intended for educational and experimental purposes. It should not be used to artificially inflate repository activity or misrepresent project progress (<b>only 1 repository that can contain this bot and you're prohibited to insert this bot to other repository</b>).
 </p> 
 
-#### Installation Guide
+### Installation Guide
 
 - Clone this repository
 ```
@@ -48,7 +48,7 @@ git clone https://github.com/rahfianugerah/commitwave.git
 npm start
 ```
 
-#### Interactive Bot Usage
+### Interactive Bot Usage
 
 - Enter a date range and commit(s)
 ```bash
@@ -78,7 +78,7 @@ To https://github.com/rahfianugerah/commitwave
 Commit Wave: All commits are done. Pushed to remote successfully.
 ```
 
-#### Bot Script (Github Actions Script)
+### Bot Script (Github Actions Script)
 
 <p align="justify">
 The Commit Wave project leverages a GitHub Actions script to automate commit operations. This script is configured to run on a schedule, performing 1-2 commits daily at random times. By utilizing GitHub Actions, the script ensures seamless integration with GitHub’s ecosystem, automatically pushing changes to maintain an active commit graph. The script is designed for simplicity and reliability, making it easy to set up and manage automated commits directly within your GitHub repository.
@@ -119,7 +119,7 @@ jobs:
 
 ```
 
-#### Time Configuration
+### Time Configuration
 
 <p align="justify">
 Commit Wave allows you to customize the timing of automated commits through flexible time configuration settings. You can specify the frequency and interval between commits. The tool ensures that commits are made at random times within the defined intervals, maintaining a dynamic and active commit graph. Below are the default example of the time configuration and you a can adjust the timing anytime you like:
@@ -140,10 +140,10 @@ on:
 ```
 
 
-#### License
+### License
 <p align="justify">
 This project is licensed under the MIT License. This means you are free to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software. The full text of the license is available in the <a href="https://github.com/rahfianugerah/commitwave/blob/main/LICENSE">LICENSE</a> file. By using this project, you agree to include the license notice and disclaimers in all copies or substantial portions of the Software. For more details on the terms and conditions of the MIT License, please refer to the license file.
 </p>
 
-#### Project Author
+### Project Author
 GitHub: [@rahfianugerah](https://www.github.com/rahfianugerah)
