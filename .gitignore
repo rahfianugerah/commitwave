@@ -1,4 +1,14 @@
-node_modules/
-package-lock.json
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
 
-utils/data/*
+.env
+.env.*
+!.env.example
+
+# The wave mode commits data/temp.txt on purpose, so it stays tracked.
+data/*
+!data/.gitkeep
+!data/temp.txt
