@@ -3,14 +3,14 @@ name = "commitwave"
 version = "3.0.0"
 description = "Terminal tool that maintains a GitHub contribution graph and automates GitHub achievement badges"
 readme = "README.md"
-requires-python = ">=3.12"
+requires-python = ">=3.10"
 license = { file = "LICENSE" }
 authors = [{ name = "Naufal Rahfi Anugerah" }]
 dependencies = ["python-dotenv~=1.0"]
 
 [tool.ruff]
 line-length = 100
-target-version = "py312"
+target-version = "py310"
 
 [tool.ruff.lint]
 select = ["E", "F", "I", "UP", "B"]

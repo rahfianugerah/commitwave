@@ -1,6 +1,6 @@
 # Commit Wave
 
-![Python](https://img.shields.io/badge/Python-3.12-3776AB?logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3.10-3776AB?logo=python&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-2.47-F05032?logo=git&logoColor=white)
 ![GitHub API](https://img.shields.io/badge/GitHub_API-2022--11--28-181717?logo=github&logoColor=white)
 ![Ruff](https://img.shields.io/badge/Ruff-linted-D7FF64?logo=ruff&logoColor=black)
@@ -19,14 +19,22 @@ own, and the disclaimer at the bottom of this file is worth reading before the f
 ## Setup
 
 ```bash
-python -m venv .venv
-.venv\Scripts\activate          # macOS and Linux: source .venv/bin/activate
+conda activate general
 pip install -r requirements.txt
 copy .env.example .env          # macOS and Linux: cp .env.example .env
 ```
 
-Then open `.env` and fill in the values by hand. The Contribution Wave mode needs nothing in
-`.env`; every Badge Farm mode needs `GITHUB_TOKEN`.
+Any Python 3.10 or newer works. Substitute your own environment name for `general`, or
+use a virtual environment instead:
+
+```bash
+python -m venv .venv
+.venv\Scripts\activate          # macOS and Linux: source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+Then open `.env` and fill in the values by hand. The Contribution Wave mode needs nothing
+in `.env`; every Badge Farm mode needs `GITHUB_TOKEN`.
 
 ## Usage
 

@@ -4,7 +4,7 @@ from __future__ import annotations
 
 import random
 from collections.abc import Callable
-from datetime import UTC, datetime, timedelta
+from datetime import datetime, timedelta, timezone
 
 from commitwave import git
 from commitwave.config import DATA_DIR
@@ -31,7 +31,7 @@ _MONTHS = (
 
 def format_date(moment: datetime) -> str:
     """Format as `Wed Sep 18 21:55:00 UTC 2024`, the form git accepts for --date."""
-    utc = moment.astimezone(UTC)
+    utc = moment.astimezone(timezone.utc)
     return (
         f"{_DAYS[utc.weekday()]} {_MONTHS[utc.month - 1]} {utc.day:02d} "
         f"{utc.hour:02d}:{utc.minute:02d}:{utc.second:02d} UTC {utc.year}"
@@ -84,6 +84,6 @@ def run_wave(moments: list[datetime], on_commit: Callable[[int, str], None]) -> 
 
 def _parse_day(text: str) -> datetime:
     try:
-        return datetime.strptime(text.strip(), "%Y-%m-%d").replace(tzinfo=UTC)
+        return datetime.strptime(text.strip(), "%Y-%m-%d").replace(tzinfo=timezone.utc)
     except ValueError as error:
         raise ValueError(f"'{text.strip()}' is not a date in YYYY-MM-DD form") from error

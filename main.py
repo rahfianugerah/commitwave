@@ -168,6 +168,7 @@ def _positive_int(text: str) -> int:
 if __name__ == "__main__":
     try:
         main()
-    except KeyboardInterrupt:
+    except (KeyboardInterrupt, EOFError):
+        # EOFError is Ctrl+D, or stdin running out when the app is driven by a pipe.
         tui.tell()
         tui.say("Goodbye.")

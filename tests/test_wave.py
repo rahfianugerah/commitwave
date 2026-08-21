@@ -1,6 +1,6 @@
 """Date generation, the part of the wave that is not a git call."""
 
-from datetime import UTC, datetime
+from datetime import datetime, timezone
 
 import pytest
 
@@ -8,19 +8,19 @@ from commitwave.wave import format_date, parse_range, random_dates
 
 
 def test_format_date_matches_the_form_git_accepts():
-    moment = datetime(2024, 9, 18, 21, 55, 0, tzinfo=UTC)
+    moment = datetime(2024, 9, 18, 21, 55, 0, tzinfo=timezone.utc)
     assert format_date(moment) == "Wed Sep 18 21:55:00 UTC 2024"
 
 
 def test_format_date_pads_a_single_digit_day():
-    moment = datetime(2025, 1, 5, 3, 7, 9, tzinfo=UTC)
+    moment = datetime(2025, 1, 5, 3, 7, 9, tzinfo=timezone.utc)
     assert format_date(moment) == "Sun Jan 05 03:07:09 UTC 2025"
 
 
 def test_parse_range_covers_the_whole_end_day():
     start, end = parse_range("2025-08-01", "2025-08-02")
-    assert start == datetime(2025, 8, 1, tzinfo=UTC)
-    assert end == datetime(2025, 8, 3, tzinfo=UTC)
+    assert start == datetime(2025, 8, 1, tzinfo=timezone.utc)
+    assert end == datetime(2025, 8, 3, tzinfo=timezone.utc)
 
 
 def test_parse_range_accepts_a_single_day():
