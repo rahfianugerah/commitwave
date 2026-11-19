@@ -9,7 +9,9 @@
 ![Status](https://img.shields.io/badge/Status-Active-2EA043)
 ![License](https://img.shields.io/badge/License-MIT-750014)
 
-<img src="img/bot.png" alt="Commit Wave" width="120">
+<div align=center>
+  <img src="img/bot.png" alt="Commit Wave" width="120">
+</div>
 
 Commit Wave is a terminal app that fills a GitHub contribution graph with backdated commits and works towards three GitHub achievement badges by opening and merging pull requests or by posting and accepting discussion answers. **It writes only to repositories you own, and every badge run asks you to type `yes` before it creates anything.**
 
