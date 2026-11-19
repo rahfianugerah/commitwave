@@ -15,7 +15,7 @@ DATA_DIR = ROOT / "data"
 EXAMPLE_ENV = ROOT / ".env.example"
 
 # GitHub allows about 500 content-generating requests per hour. One pull request
-# costs four of them, so 8 seconds between writes sits just under the ceiling.
+# costs five of them, so 8 seconds between writes sits just under the ceiling.
 DEFAULT_DELAY = 8.0
 
 _REMOTE = re.compile(r"github\.com[:/](?P<owner>[^/]+)/(?P<name>[^/]+?)(?:\.git)?/?$")
